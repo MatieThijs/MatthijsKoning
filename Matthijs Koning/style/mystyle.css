@@ -1,0 +1,114 @@
+body {
+    background-color: #FFF8F0; 
+    margin: 0;
+    padding:0;  
+    line-height: 1.3em;
+}  
+
+.container{ 
+    background-color: #FFF8F0;
+    max-width: 1080px;
+    display: grid; 
+    margin: 0;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* upper picture */
+.topPic{ 
+    width: 100%;
+    height: auto;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden; 
+}
+.textPic{
+    position: absolute; 
+    text-align: center;
+    color: white; 
+    font-size: 70px; 
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000; 
+    line-height: 1
+}
+
+/* content */
+.header{
+    text-align: left;
+    font-weight: bold;
+    color: #718e67;
+    font-family:Impact, 'Arial Narrow Bold', ; 
+    font-size: 50px; 
+}
+
+.h2{
+    text-align: left;
+    font-family: Impact, 'Arial Narrow'; 
+    color: #718e67;
+    
+}
+
+.p{
+    text-align: left;
+    font-family: 'Arial Narrow'; 
+    color: #718e67;
+    
+}
+
+
+/* Navigation bar*/
+.topnav {
+    background-color: #2E4756;
+    overflow: hidden;
+    position: fixed; 
+    top: 0; 
+    width: 100%;
+    z-index: 10000;
+}
+    
+.topnav a {
+    
+    float: left;
+    display: block;
+    color: #FFF8F0;
+    text-align: center;
+    padding: 25px 26px;
+    text-decoration: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 17px;
+}   
+
+.topnav a:hover {
+    background-color: #334e5f;
+    color: #FFF8F0;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+
+/* aka a grid?? */
+.column { 
+    float: left;
+    width: 50%;
+    background-color: #FFF8F0;
+    height: 400px;     
+} 
+
+.textColumn{
+    padding:5px;
+    float: left; 
+}
+
+.picColumn{
+    float:right;
+    padding: 3px;
+    padding-top: 40px;
+    width: 100%;
+    height: auto;  
+    max-height: 400px;
+    max-width: fit-content 
+}
+
